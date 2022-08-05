@@ -18,9 +18,10 @@ M, Tc, Vc, k12 and B12 for known systems can be found in: doi: 10.17632/5xtny3b3
 
 Copy paste on Matlab to run, tested in Matlab 2021b
 
-%% example 1 CO2/ehanol 1 data point
+### example 1 CO2/ehanol 1 data point
 
 T = 313.21; %K
+
 Density = 0.74364; % g/cum
 
 M = [46.069 44.01];
@@ -33,7 +34,7 @@ D12calc_P2 = Rice_and_Gray(T, Density, M, Tc, Vc, k12, B12)
 
 
 
-%% example 2 CO2/ibuprofen Multiple Data Points
+### example 2 CO2/ibuprofen Multiple Data Points
 
 T = [313.15; 313.15; 318.15; 318.15]; % K
 
