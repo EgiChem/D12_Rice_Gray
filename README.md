@@ -14,9 +14,9 @@ Calculates the tracer diffusivity of a given solute in a solvent. If used please
 
 M, Tc, Vc, k12 and B12 for known systems can be found in: doi: 10.17632/5xtny3b39t.1
 
-## Code exemples
+## Code examples
 
-Copy paste on Matlab to run
+Copy paste on Matlab to run, tested in Matlab 2021b
 
 %% example 1 CO2/ehanol 1 data point
 
