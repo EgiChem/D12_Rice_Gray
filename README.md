@@ -4,21 +4,21 @@ Calculates the tracer diffusivity of a given solute in a solvent. If used please
 
 ## Requiered Data:
 
-* ´T´ - Absolute temperature in K in column format;
-* ´Density´ - Density of the solvent in g/cucm  in column format;
-* ´M´ - Molecular mass of the compounds by the following order solute, solvent;
-* ´Tc´ - Critical temperature in K of the compounds by the following order solute, solvent;
-* ´Vc´ - Critical volume in cucm/gmol of the compounds by the following order solute, solvent;
-* ´k12´ - Binary binary interaction parameter introduced in the LJ diameter combination rule;
-* ´B12´ - Binary binary interaction parameter.
+* `T` - Absolute temperature in K in column format;
+* `Density` - Density of the solvent in g/cucm  in column format;
+* `M` - Molecular mass of the compounds by the following order solute, solvent;
+* `Tc` - Critical temperature in K of the compounds by the following order solute, solvent;
+* `Vc` - Critical volume in cucm/gmol of the compounds by the following order solute, solvent;
+* `k12` - Binary binary interaction parameter introduced in the LJ diameter combination rule;
+* `B12` - Binary binary interaction parameter.
 
-´M´, ´Tc´, ´Vc´, ´k12´ and ´B12´ for known systems can be found in: doi: [https://doi.org/10.3390/ma1518641](https://doi.org/10.3390/ma15186416)]
+`M`, `Tc`, `Vc`, `k12` and `B12` for known systems can be found in: doi: [https://doi.org/10.3390/ma1518641](https://doi.org/10.3390/ma15186416)
 
 ## Code examples
 
 Copy paste on Matlab to run, tested in Matlab 2021b
 
-### example 1 CO2/ehanol 1 data point
+### Example 1 CO2/ehanol 1 data point
 ```matlab
 T = 313.21; %K
 
@@ -34,7 +34,7 @@ D12calc_P2 = Rice_and_Gray(T, Density, M, Tc, Vc, k12, B12)
 ```
 
 
-### example 2 CO2/ibuprofen Multiple Data Points
+### Example 2 CO2/ibuprofen Multiple Data Points
 ```matlab
 T = [313.15; 313.15; 318.15; 318.15]; % K
 
